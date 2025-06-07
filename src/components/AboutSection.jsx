@@ -12,20 +12,17 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & Tech Creator
+              Innovative Full-Stack Developer, AI Enthusiast and Efficient Problem Solver
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              As a final-year B.Tech IT student with a strong CGPA of 9.10, I specialize in building intelligent, user-centric web applications using the MERN stack and AI/ML integration.
+
+
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+              I’m passionate about turning ideas into impactful tech products—whether it’s deploying deep learning models or crafting responsive, scalable interfaces. With 600+ DSA problems solved and hands-on experience in real-world projects, I strive to combine strong problem-solving skills with modern development practices.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -35,11 +32,14 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href=""
+                href="https://drive.google.com/file/d/1rjmw5k74d3p3hPpmdjnE-X25clrbm3P-/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
               </a>
+
             </div>
           </div>
 
@@ -64,10 +64,9 @@ export const AboutSection = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                  <h4 className="font-semibold text-lg">Machine Learning & AI</h4>
                   <p className="text-muted-foreground">
-                    Designing intuitive user interfaces and seamless user
-                    experiences.
+                    Developing intelligent solutions using deep learning, NLP, and model deployment in real-world applications.
                   </p>
                 </div>
               </div>
@@ -79,10 +78,9 @@ export const AboutSection = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
+                  <h4 className="font-semibold text-lg">Data Structures & Algorithms</h4>
                   <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
+                   Solving complex problems with efficient algorithms, demonstrated by 600+ DSA problems solved across platforms.
                   </p>
                 </div>
               </div>

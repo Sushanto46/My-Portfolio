@@ -3,32 +3,92 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "Image Caption Generator",
+    description: "Deep Learning-Based Captioning App",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: [" Python", "TensorFlow", "Keras", "Streamlit", "Matplotlib", "Pickle"],
+    demoUrl: "https://image-caption-generator-5badr8t8ppb6qfmyjh3m99.streamlit.app/",
+    githubUrl: "https://github.com/Sushanto46/Image-Caption-Generator",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "GenBlog",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "Full-Stack MERN Blogging Platform with AI Integration",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["ReactJS", "Tailwind CSS", "ExpressJS", "MongoDB", "Node.js", "Google Gemini"],
+    demoUrl: "https://blog-mern-ai.vercel.app/",
+    githubUrl: "https://github.com/Sushanto46/Blog-MERN-AI",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Sorting Visualizer",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "Web-based sorting algorithm visualizer with customizable array size and speed control.",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["Data Structures and algorithms (DSA)", "HTML", "CSS", "Javascript"],
+    demoUrl: "https://sushanto46.github.io/Sort-Visualizer/",
+    githubUrl: "https://github.com/Sushanto46/Sort-Visualizer",
+  },
+  {
+    id: 4,
+    title: "Random Password Generator",
+    description:
+      "Web app with customizable length, number, and special character options, featuring clipboard copy functionality and real-time password updates.",
+    image: "/projects/project4.png",
+    tags: ["React", "JavaScript", "Tailwind CSS"],
+    demoUrl: "https://random-password-generator-kappa-six.vercel.app/",
+    githubUrl: "https://github.com/Sushanto46/Random-Password-Generator",
+  },
+  {
+    id: 5,
+    title: "Animated Interactive Web Experience",
+    description:
+      "Interactive web experience featuring dynamic animations and  scroll-based effects",
+    image: "/projects/project5.png",
+    tags: ["HTML", "CSS", "JavaScript", "GSAP", "ScrollTrigger"],
+    demoUrl: "https://sushanto46.github.io/TALA/",
+    githubUrl: "https://github.com/Sushanto46/TALA",
+  },
+  {
+    id: 6,
+    title: "StayEase",
+    description:
+      "Hotel Booking Full Stack Web Application with many more features",
+    image: "/projects/project6.png",
+    tags: [ "ReactJS", "Tailwind CSS", "ExpressJS", "MongoDB", "Node.js", "Javascript",  "Stripe"],
+    demoUrl: "https://stayease-pi.vercel.app/",
+    githubUrl: "https://github.com/Sushanto46/StayEase",
+  },
+  {
+    id: 7,
+    title: "To-Do Application",
+    description:
+      "A feature-rich To-Do app supporting add, edit, delete, and completion checkbox for each task.",
+    image: "/projects/project7.png",
+    tags: [ "React", "Redux", "Tailwind CSS", "JavaScript"],
+    demoUrl: "https://to-do-redux-woad.vercel.app/",
+    githubUrl: "https://github.com/Sushanto46/To-Do-Redux",
+  },
+  {
+    id: 8,
+    title: "Currency Converter App",
+    description:
+      "A currency converter app with real-time rates and swap functionality.",
+    image: "/projects/project8.png",
+    tags: [ 'React', "Tailwind CSS", "JavaScript", "Custom Hooks"],
+    demoUrl: "https://currency-converter-iota-seven.vercel.app/",
+    githubUrl: "https://github.com/Sushanto46/Currency-converter",
+  },
+  {
+    id: 9,
+    title: "Tic-Tac-Toe Game",
+    description:
+      "A simple browser-based Tic-Tac-Toe game with win and draw detection.",
+    image: "/projects/project9.png",
+    tags: [ "HTML", "CSS", "JavaScript"],
+    demoUrl: "https://sushanto46.github.io/TicTacToe-Game/",
+    githubUrl: "https://github.com/Sushanto46/TicTacToe-Game",
   },
 ];
 
@@ -100,7 +160,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/Sushanto46"
           >
             Check My Github <ArrowRight size={16} />
           </a>

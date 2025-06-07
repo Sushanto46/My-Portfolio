@@ -3,28 +3,41 @@ import { cn } from "@/lib/utils";
 
 const skills = [
   // Frontend
+  { name: "C/C++", level: 95, category: "Programming Languages" },
+  { name: "Java", level: 95, category: "Programming Languages" },
+  { name: "Python", level: 95, category: "Programming Languages" },
+
+  
   { name: "HTML/CSS", level: 95, category: "frontend" },
   { name: "JavaScript", level: 90, category: "frontend" },
   { name: "React", level: 90, category: "frontend" },
-  { name: "TypeScript", level: 85, category: "frontend" },
   { name: "Tailwind CSS", level: 90, category: "frontend" },
-  { name: "Next.js", level: 80, category: "frontend" },
 
   // Backend
   { name: "Node.js", level: 80, category: "backend" },
   { name: "Express", level: 75, category: "backend" },
   { name: "MongoDB", level: 70, category: "backend" },
-  { name: "PostgreSQL", level: 65, category: "backend" },
-  { name: "GraphQL", level: 60, category: "backend" },
 
   // Tools
-  { name: "Git/GitHub", level: 90, category: "tools" },
-  { name: "Docker", level: 70, category: "tools" },
-  { name: "Figma", level: 85, category: "tools" },
-  { name: "VS Code", level: 95, category: "tools" },
+  { name: "Git/GitHub", level: 90, category: "tools and platformools" },
+  { name: "Postman", level: 70, category: "tools and platform" },
+  { name: "Windows", level: 85, category: "tools and platform" },
+  { name: "VS Code", level: 95, category: "tools and platform" },
+
+  { name: " Artificial Intelligence", level: 70, category: "Miscellaneous" },
+  { name: "Machine Learning", level: 70, category: "Miscellaneous" },
+
+
+  { name: "Collaboration", level: 70, category: "Soft Skills" },
+  { name: "Teamwork", level: 70, category: "Soft Skills" },
+  { name: "Problem Solving", level: 70, category: "Soft Skills" },
+  { name: "Time Management", level: 70, category: "Soft Skills" },
+  { name: "Integrity", level: 70, category: "Soft Skills" },
+  { name: "Continuous Learning ", level: 70, category: "Soft Skills" },
+
 ];
 
-const categories = ["all", "frontend", "backend", "tools"];
+const categories = ["all","Programming Languages" ,"frontend", "backend", "tools and platform", "Miscellaneous", "Soft Skills"];
 
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
@@ -42,15 +55,16 @@ export const SkillsSection = () => {
         <div className="flex flex-wrap justify-center gap-4 mb-12">
           {categories.map((category, key) => (
             <button
-              key={key}
-              onClick={() => setActiveCategory(category)}
-              className={cn(
-                "px-5 py-2 rounded-full transition-colors duration-300 capitalize",
-                activeCategory === category
-                  ? "bg-primary text-primary-foreground"
-                  : "bg-secondary/70 text-forefround hover:bd-secondary"
-              )}
-            >
+  key={key}
+  onClick={() => setActiveCategory(category)}
+  className={cn(
+    "px-5 py-2 rounded-full transition-colors duration-300 capitalize cursor-pointer",
+    activeCategory === category
+      ? "bg-primary text-primary-foreground"
+      : "bg-secondary/70 text-forefround hover:bd-secondary"
+  )}
+>
+
               {category}
             </button>
           ))}
